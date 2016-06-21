@@ -48,14 +48,14 @@
 
 .pic1, .pic3, .pic5 {
 
-	@includ tabletSize{
+	@include tabletSize{
 	padding: 1em .5em 0 1em;
   }
 }
 
 .pic2, .pic4, .pic6 {
 	
-	@includ tabletSize{
+	@include tabletSize{
 	padding: 1em 1em 0 .5em;
   }
 }

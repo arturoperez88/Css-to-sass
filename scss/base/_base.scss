@@ -9,7 +9,7 @@
 
 body {
 	background-color:  $body-color ;
-	text-align: center;
+	@extend %center;
 	margin: 0;	
 }
 
@@ -21,7 +21,7 @@ body {
 /************ TEXT STYLES	************/
 
 h1, h2, h3, p, li,  .signature {
-	@extend %mainFont;
+	font-family: $main-font
 }
 
 

@@ -7,7 +7,6 @@
 
 body {
   background-color: #c0c0c0;
-  text-align: center;
   margin: 0; }
 
 .clearfix::after {
@@ -16,6 +15,9 @@ body {
   clear: both; }
 
 /************ TEXT STYLES	************/
+h1, h2, h3, p, li, .signature {
+  font-family: "Orbitron", sans-serif; }
+
 /************   LINK STYLES   **************/
 a {
   text-decoration: none;
@@ -24,8 +26,8 @@ a {
 a:hover {
   color: #878787; }
 
-h1, h2, h3, p, li, .signature {
-  font-family: 'Orbitron', sans-serif; }
+body {
+  text-align: center; }
 
 /************   FOOTER  **********/
 @media (min-width: 768px) {
@@ -107,12 +109,14 @@ footer {
       margin: .5em;
       padding: 0; } }
 
-@includ tabletSize {
+@media (min-width: 768px) {
   .pic1, .pic3, .pic5 {
     padding: 1em .5em 0 1em; } }
-@includ tabletSize {
+
+@media (min-width: 768px) {
   .pic2, .pic4, .pic6 {
     padding: 1em 1em 0 .5em; } }
+
 img {
   max-width: 100%;
   border-radius: 2em; }
@@ -173,18 +177,17 @@ img {
     .profile-image {
       margin-right: 4em; } }
 
-@inlude tabletSize {
+@media (min-width: 768px) {
   .intro {
-    max-width: 45%; } }
+    max-width: 55%; } }
 @media (min-width: 1024px) {
   .intro {
     margin-left: 3em; } }
-@inlude tabletSize {
+@media (min-width: 768px) {
   .intro p {
-    float: left;
     display: inline-block;
-    font-size: 20px;
-    text-align: left; } }
+    font-size: 20px; } }
+
 .quote {
   color: #daa520; }
 
