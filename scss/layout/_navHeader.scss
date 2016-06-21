@@ -23,10 +23,10 @@
 		padding:0;
 		margin: 0;
 		display: none;
-		transition: 1s;
+	
 
 	  @include tabletSize {
-	  	
+	  	display: initial;
 	  text-align: center;
 		margin: 2em;
 	  }	

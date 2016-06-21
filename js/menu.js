@@ -4,4 +4,3 @@ $('.menu').on('click',function() {
 
 });
 
-	i
