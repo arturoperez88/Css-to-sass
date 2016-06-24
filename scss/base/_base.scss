@@ -21,7 +21,7 @@ body {
 /************ TEXT STYLES	************/
 
 h1, h2, h3, p, li,  .signature {
-	font-family: $main-font
+	font-family: $main-font;
 }
 
 
@@ -32,7 +32,7 @@ h1, h2, h3, p, li,  .signature {
 a{
 	&{
 		text-decoration: none;
-		color: black;
+		color: $primery-color;
 		cursor: pointer;
 }
 	&:hover {

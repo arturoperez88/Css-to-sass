@@ -21,7 +21,7 @@ h1, h2, h3, p, li, .signature {
 /************   LINK STYLES   **************/
 a {
   text-decoration: none;
-  color: black;
+  color: #000;
   cursor: pointer; }
 a:hover {
   color: #878787; }
@@ -39,7 +39,7 @@ body {
     padding: 0 4em; } }
 
 footer {
-  border-top: solid 1px gray; }
+  border-top: solid 1px #878787; }
   @media (min-width: 768px) {
     footer {
       margin-bottom: 1em; } }
@@ -79,7 +79,7 @@ footer {
       background-color: #c0c0c0; } }
 
 .wrapper {
-  background: white;
+  background: #fff;
   max-width: 100%;
   padding: 3em .5em 2em .5em; }
   @media (min-width: 768px) {
@@ -124,7 +124,7 @@ img {
 /************ 	NAVIGATION AND HEADER ************/
 .student-name {
   font-size: 28px;
-  color: goldenrod;
+  color: #daa520;
   display: inline-block; }
   @media (min-width: 1024px) {
     .student-name {
@@ -151,7 +151,7 @@ img {
   padding: .75em;
   margin-top: .5em;
   list-style-type: none;
-  background-color: white; }
+  background-color: #fff; }
   @media (min-width: 768px) {
     .main-nav li {
       display: inline;

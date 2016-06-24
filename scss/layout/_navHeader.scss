@@ -1,8 +1,8 @@
 /************ 	NAVIGATION AND HEADER ************/
 
 .student-name {
-	font-size: 28px;
-	color: goldenrod;
+	font-size: $font-XXVII;
+	color: $second-color;
 	@extend %textShadow;
 	display: inline-block;
 
@@ -40,11 +40,11 @@
 
 	& li {
 		font-weight: 700;
-		font-size: 18px;
+		font-size: $font-XVIII;
 		padding: .75em;
 		margin-top: .5em;
 		list-style-type: none;
-		background-color: white;
+		background-color: $background-color;
 
 	  @include tabletSize{
 	  	display: inline;
@@ -106,7 +106,7 @@
  @include tabletSize {
 	
 	display: inline-block;
-	font-size: 20px;
+	font-size: $font-XX ;
 	;
   }
 }

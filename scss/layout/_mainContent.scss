@@ -9,7 +9,7 @@
 }
 //////////////////////////////////
 .wrapper {
-	background: white;
+	background: $background-color ;
 	max-width: 100%;
 	padding: 3em .5em 2em .5em;
 
@@ -20,7 +20,7 @@
  @include desktopSize {
     margin: 0 2em;
 	max-width: 100%;
-	box-shadow: 10px 10px 10px #000;
+	box-shadow: 10px 10px 10px $primery-color ;
  }
 
 }

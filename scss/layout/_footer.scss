@@ -11,7 +11,7 @@
 
 	& p {
 		@include tabletSize {
-		font-size: 22px;
+		font-size: $font-XXII;
 		padding: 0 4em;
 	}
 }
@@ -21,7 +21,7 @@
 
 
 footer {
-	border-top: solid 1px gray;
+	border-top: solid 1px $hover-color;
 
 	@include tabletSize {
 		margin-bottom: 1em;
@@ -60,7 +60,7 @@ footer {
   	display: inline-block;
 	list-style-type: none;
 	margin: 1em;
-	font-size: 18px;
+	font-size: $font-XVIII;
 	font-weight: 700;
  	}
 
